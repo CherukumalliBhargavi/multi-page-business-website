@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nexora</title>
+    <link rel="stylesheet" href="D:\Multi-Page Business Website\style.css">
+    <script src="D:\Multi-Page Business Website\script.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <a class="logo" href="D:\Multi-Page Business Website\index.html">NEXORA<span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+        <a href="D:\Multi-Page Business Website\index.html">Home</a><a href="D:\Multi-Page Business Website\about.html">About</a>
+        <a href="D:\Multi-Page Business Website\services.html">Services</a><a href="D:\Multi-Page Business Website\projects.html">Projects</a>
+        <a class="nav-contact active" href="D:\Multi-Page Business Website\contact.html">Let's Talk ↗</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h1>Let's create something<br><span>meaningful.</span></h1>
+        <p>Have a question, an idea, or a business challenge? Tell us a little about it.</p>
+    </section>
+
+    <section class="contact-layout section">
+        <div class="contact-details">
+            <span class="eyebrow">START A CONVERSATION</span>
+            <h2>We'd love to hear from you.</h2>
+            <p>Share your goals with us. Use the form to describe your project or ask a question.</p>
+
+            <div class="contact-item"><span class="contact-symbol">✉</span><div><strong>Email</strong><p>Nexora@gmail.com</p></div></div>
+            <div class="contact-item"><span class="contact-symbol">◷</span><div><strong>Working hours</strong><p>Monday – Friday · 9:00 AM – 6:00 PM</p></div></div>
+            <div class="contact-item"><span class="contact-symbol">⌖</span><div><strong>Location</strong><p>Vijayawada</p></div></div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <h2>Send us a message</h2>
+            <p class="form-intro">Fields marked * are required.</p>
+
+            <label for="name">Full name *</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" required maxlength="100">
+
+            <label for="email">Email address *</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required maxlength="254">
+
+            <label for="service">What can we help you with?</label>
+            <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option>Business Consulting</option>
+                <option>Digital Solutions</option>
+                <option>Growth Strategy</option>
+                <option>Brand Development</option>
+                <option>Data & Insights</option>
+                <option>Other</option>
+            </select>
+
+            <label for="message">Your message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required maxlength="3000"></textarea>
+            <button class="btn btn-primary form-submit" type="submit">Send Message ↗</button>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <a class="logo footer-logo" href="D:\Multi-Page Business Website\index.html">NEXORA<span></span></a>
+    <p>Building better businesses through strategy and innovation.</p>
+    <div class="footer-links"><a href="D:\Multi-Page Business Website\about.html">About</a><a href="D:\Multi-Page Business Website\services.html">Services</a><a href="D:\Multi-Page Business Website\projects.html">Projects</a><a href="D:\Multi-Page Business Website\contact.html">Contact</a></div>
+    <small>© <span class="year"></span> Nexora Business Solutions. All rights reserved.</small>
+</footer>
+</body>
+</html>
